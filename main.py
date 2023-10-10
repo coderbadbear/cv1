@@ -11,10 +11,16 @@ with st.container():
     st.subheader("Prof. Dr. Ahmet Sabri ARU")
     st.write("ahmet-sabri-aru@caltech.edu")
     st.write("[Research Web Site ](https://cosmology.caltech.edu)")
+    st.subheader("Refrences")
+    st.write("""Richard Feynman : +1 (555) 555-1234\n
+Paul Dirac : +44 11 1234 5678\n
+Max Tegmark : +1 (555) 555-4321\n
+             """)
+
 
 
 with st.container():
-    st.write("""Institution Information\n
+    st.subheader("""Institution Information\n
 Faculty / Institute / Unit: Faculty of Science\n
 Department: Department of Astronomy and Space Sciences\n
 Department of science: Department of Astrophysics""")
